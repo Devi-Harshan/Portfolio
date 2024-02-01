@@ -3,12 +3,21 @@ import './styles.css'
 
 export default function Dashboard(){
     return (
-        <div className="wrapper">
-            <div className="nameWrapper"> DEVI HARSHAN</div>
+        <div className="hero">
+            <div className="nameWrapper"> Devi Harshan</div>
             <div className="row">
-    <div className="col-md-12 text-center">
-      <h3 className="animate-charcter">UI Developer</h3>
-    </div>
+   {/*  <div className="col-md-12 text-center">
+      <h3 className="animate-charcter">Front End Developer</h3>
+    </div> */}
+    <div className="word">
+  <span>Front End Developer</span>
+</div>
+    <div className="cube"></div>
+  <div className="cube"></div>
+  <div className="cube"></div>
+  <div className="cube"></div>
+  <div className="cube"></div>
+  <div className="cube"></div>
   </div>
        {/* <Image
               src="/backgroundGIF.gif"
