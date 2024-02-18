@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import Dashboard from './dashboard/page'
+import Dashboard from "./dashboard/page";
 
 export default function Home() {
   return (
-    <main /* className="flex items-center justify-between" */>
-            <Dashboard/>
-          </main>
-  )
+    <main className="h-full w-full">
+      <div className="flex flex-col gap-10 h-full">
+        <Dashboard />
+      </div>
+    </main>
+  );
 }

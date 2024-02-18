@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.box{
+  display:flex;
+  width:100%;
+  backdrop-filter: blur(6px);
+  border-radius:32px;
+  box-shadow:inset 0 -7px 11px #a48fff1f;
+  transition:0.4s cubic-bezier(0.075, 0.82, 0.165, 1) box-shadow;
+}
