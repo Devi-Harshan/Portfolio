@@ -2,6 +2,7 @@ import About from "../about/page";
 import Achievement from "../achievement/page";
 import Project from "../projects/page";
 import "./styles.css";
+import Skill from '../skill/page';
 
 export default function Dashboard() {
   return (
@@ -14,7 +15,7 @@ export default function Dashboard() {
           <Project />
         </section>
         <section id="skill">
-          <About />
+          <Skill />
         </section>
         <section id="achievement">
           <Achievement />

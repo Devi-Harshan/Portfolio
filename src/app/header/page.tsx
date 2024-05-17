@@ -14,10 +14,10 @@ export default function Header() {
       animate="visible"
       className="flex flex-row flex-wrap w-full"
     >
-      <div className="flex flex-row bg-gray-800 md:sticky top-0 w-full ">
+      <div className="flex flex-row bg-gray-800 md:sticky top-0 w-full z-11 ">
         <motion.div
           variants={slideInFromLeft(0.3)}
-          className="flex w-full box py-[4px] px-[4px] opacity-[0.9] border border-[#7042f88b]"
+          className="flex w-full box py-[4px] px-[4px] opacity-[0.9]  background-[] border border-[#7042f88b]"
         >
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <div className="title-font font-medium text-white mb-4 md:mb-0">

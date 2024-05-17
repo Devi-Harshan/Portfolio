@@ -11,7 +11,7 @@ export default function Project() {
         <br />
 
         <div className="row1-container">
-          <div className="boxs boxs-down cyan">
+          <div className="boxs  cyan">
             <strong className="headerStyle">Wealth CRM</strong>
             <div>
               Led the development of a cloud-agnostic architecture application
@@ -47,7 +47,7 @@ export default function Project() {
             />
           </div>
 
-          <div className="boxs boxs-down blue">
+          <div className="boxs  blue">
             <strong className="headerStyle">Institutional Clients Group</strong>
             <p>
               I specialized in creating robust client interfaces for securities
