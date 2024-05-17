@@ -12,7 +12,7 @@
 }
 
 body {
-  font-size: 14px;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -60,18 +60,17 @@ h1:last-of-type {
   border-radius: 5px;
   border: 1px solid #7042f88b;
   box-shadow: inset 0 -7px 11px #a48fff1f;
-  padding: 30px;
-  margin: 20px;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .img-height {
   float: right;
-  height: 30px;
 }
 
 @media (max-width: 450px) {
   .boxs {
-    height: 200px;
+    height: 50rem;
   }
 }
 
