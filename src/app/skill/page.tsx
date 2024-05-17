@@ -21,7 +21,11 @@ export default function Skill() {
   return (
     <div
       className="container flex px-10 py-10 md:flex-row flex-col items-center"
-      style={{ height: "100vh", justifyContent:"center", alignContent:"center" }}
+      style={{
+        height: "100vh",
+        justifyContent: "center",
+        alignContent: "center",
+      }}
     >
       <div className="window">
         <nav>
@@ -68,7 +72,7 @@ export default function Skill() {
               ) : selectedTab.label === "IDE" ? (
                 <>IDE</>
               ) : (
-                "😋"
+                ""
               )}
             </motion.div>
           </AnimatePresence>
